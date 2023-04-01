@@ -13,7 +13,7 @@ exports.up = async function (knex) {
     
     CREATE TABLE IF NOT EXISTS public.bicicuenca_data (
       id serial,
-      timestamp timestamp,
+      timestamp timestamptz,
       nombre varchar,
       ref varchar,
       lat varchar,
